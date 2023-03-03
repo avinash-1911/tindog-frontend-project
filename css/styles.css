@@ -1,0 +1,220 @@
+body{
+    font-family: "Montserrat", sans-serif ;
+    overflow-x: hidden;
+}
+
+h1{
+    color: white;
+    font-family: "Montserrat", sans-serif ;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+
+}
+
+#title{
+
+    background-color: #ff4c68;
+  
+
+}
+ 
+.container-fluid{
+    padding: 3% 15% 7%;
+
+}
+
+.navbar-brand{
+   font-family:  'Ubuntu', sans-serif;
+   font-weight: bold;
+   font-size: 2rem;
+   line-height: 1.5;
+}
+
+.iphone-mockup img{
+    right: 30%;
+    position: absolute;
+    transform: rotate(25deg);
+   width:50%;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+ 
+ font-size: 1.2rem;
+    padding: 0px 18px;
+}
+
+.btn{
+  margin-top: 2rem;
+}
+
+#features{
+    background-color: #fff;
+    z-index: 1;
+position: relative;
+    font-size: 14px;
+  padding: 7% 15%;
+}
+
+#features h3{
+    font-size: 1.3rem;
+   font-weight: 900;
+}
+
+.tindog-feature{
+   
+    text-align: center;
+    padding: 5%;
+}
+
+#features p{
+
+    font-weight: 400;
+    color: #8f8f8f;
+}
+
+.fa-sym{
+    padding: 5%;
+    color: #ef8172;
+}
+
+.fa-sym:hover{
+    margin-bottom: 1rem;
+    color: #ff4c68;
+}
+
+.heart-icon{
+    padding-top: 1%;
+}
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-dog {
+    width: 10%;
+    border-radius: 100%;
+    display: block;
+    margin: 2% 45%;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    display: block;
+    margin: 2% 45%;
+}
+
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+.price-heading{
+    padding: 5% 25%;
+    text-align: center;
+}
+
+#pricing h3{
+    font-weight: 900;
+}
+
+#pricing{
+    
+    text-align: center;
+ 
+ 
+}
+
+#pricing .card{
+    margin: 0 auto;
+    width: 70%;
+
+}
+
+.price-row{
+  margin: 5%;
+}
+#pricing p{
+    color: #8f8f8f;
+    font-weight: 600;
+}
+
+.high-plan p {
+
+    height: 14px;
+}
+
+#cta{
+    font-size: 20px;
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#cta h3{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+#cta button{
+    margin: 4% 1.5%;
+}
+
+
+#footer{
+    
+    font-size: 14px;
+    text-align: center;
+    padding: 7%  15%;
+    margin: 2%;
+    font-weight: 600;
+    font-family: 'montserrat';
+}
+
+#footer i{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer p{
+    color: #8f8f8f;
+}
+
+@media (max-width: 1011px){
+    
+        .iphone-mockup img{
+           
+   transform: rotate(0deg);
+   position: static;
+   padding-top: 10%;
+        }
+
+
+        .container-fluid{
+            text-align: center;
+        }
+
+}
